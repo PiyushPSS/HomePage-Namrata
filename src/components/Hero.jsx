@@ -1,5 +1,16 @@
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import { ChevronRight } from "lucide-react";
+import Lottie from "react-lottie";
+import animationData from "../../public/dotlottie.json"
+
+const defaultOptions = {
+      loop: true,
+      autoplay: true,
+
+      animationData: animationData,
+      rendererSettings: {
+        preserveAspectRatio: "xMidYMid slice"
+      }
+    };
 
 const Hero = () => {
   return (
@@ -36,11 +47,10 @@ const Hero = () => {
             </div>
           </div>
           <div className="relative">
-            <DotLottieReact
-              className="w-[740px]"
-              src="https://lottie.host/e67b0740-3e68-4d6d-b825-3bf3bd3e9910/tOQjaoasxm.lottie"
-              loop
-              autoplay
+            <Lottie
+              options={defaultOptions}
+              width={710}
+              isClickToPauseDisabled={true}
             />
           </div>
         </div>
