@@ -55,7 +55,7 @@ const Hero = () => {
           </div>
         </div>
       </main>
-      <div className="bg-black py-10">
+      <div className="bg-black mt-4 py-8">
         <div className="max-w-7xl mx-auto flex justify-between items-center h-full px-4">
           <div className="flex items-center space-x-3 animate-fade-in-up">
             <span className="bg-blue-700 text-white rounded-full p-2">
