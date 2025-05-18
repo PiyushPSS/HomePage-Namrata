@@ -176,20 +176,7 @@ const Footer = () => {
             </div>
 
             <div className="mt-8">
-              <div className="bg-[#0061ff] p-2 rounded inline-block mb-4">
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 2L6 7L12 12L18 7L12 2Z" fill="white" />
-                  <path d="M12 12L6 7L0 12L6 17L12 12Z" fill="white" />
-                  <path d="M12 12L18 7L24 12L18 17L12 12Z" fill="white" />
-                  <path d="M12 22L6 17L12 12L18 17L12 22Z" fill="white" />
-                </svg>
-              </div>
+              <img src="/images/mainlogo.png" alt="Logo" className="w-10 h-10 mb-2" />
               <h4 className="text-white font-bold text-lg">
                 Namrata Universal
               </h4>

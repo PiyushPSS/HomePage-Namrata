@@ -48,7 +48,7 @@ const AboutUs = () => {
           <div className="absolute -top-4 -left-4 w-24 h-24 bg-[#0061ff] opacity-10 rounded-full"></div>
           <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-[#0061ff] opacity-10 rounded-full"></div>
           <img
-            src="global/about.png"
+            src="/images/about.png"
             alt="About Us"
             className="w-full h-[300px] object-cover rounded-lg shadow-xl border border-gray-100 relative z-10"
           />

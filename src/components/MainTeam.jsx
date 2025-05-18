@@ -6,7 +6,7 @@ const teamMembers = [
   {
     name: "Brajesh Kumar Jaiswal",
     position: "Co-Founder",
-    image: "global/brajesh.png",
+    image: "/images/brajesh.png",
     socials: {
       linkedin: "https://www.linkedin.com/company/namrata-universal/",
       facebook: "https://www.facebook.com/namratauniversal01/",
@@ -16,7 +16,7 @@ const teamMembers = [
   {
     name: "Preeti",
     position: "CEO & Founder",
-    image: "global/preeti.png",
+    image: "/images/preeti.png",
     socials: {
       linkedin: "https://www.linkedin.com/company/namrata-universal/",
       facebook: "https://www.facebook.com/namratauniversal01/",
@@ -26,7 +26,7 @@ const teamMembers = [
   {
     name: "Saurabh Mahawar",
     position: "Co-Founder",
-    image: "global/saurabh.png",
+    image: "/images/saurabh.png",
     socials: {
       linkedin: "https://www.linkedin.com/company/namrata-universal/",
       facebook: "https://www.facebook.com/namratauniversal01/",
