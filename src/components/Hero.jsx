@@ -14,7 +14,7 @@ const defaultOptions = {
 
 const Hero = () => {
   return (
-    <div className="flex flex-col h-[82vh]">
+    <div className="flex flex-col h-[80vh]">
       <main className="flex-1 px-4 pb-12 md:py-16">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-center">
           <div>
