@@ -1,6 +1,6 @@
 import { ChevronRight } from "lucide-react";
 import Lottie from "react-lottie";
-import animationData from "../../public/dotlottie.json"
+import animationData from "../dotlottie.json"
 
 const defaultOptions = {
       loop: true,
@@ -15,7 +15,7 @@ const defaultOptions = {
 const Hero = () => {
   return (
     <div className="flex flex-col h-[82vh]">
-      <main className="flex-1 px-4 py-12 md:py-16">
+      <main className="flex-1 px-4 pb-12 md:py-16">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-center">
           <div>
             <div className="inline-flex items-center bg-blue-100 text-blue-700 rounded-full px-3 py-1 text-sm mb-4">
@@ -55,7 +55,7 @@ const Hero = () => {
           </div>
         </div>
       </main>
-      <div className="bg-black mt-5 py-12">
+      <div className="bg-black py-10">
         <div className="max-w-7xl mx-auto flex justify-between items-center h-full px-4">
           <div className="flex items-center space-x-3 animate-fade-in-up">
             <span className="bg-blue-700 text-white rounded-full p-2">
