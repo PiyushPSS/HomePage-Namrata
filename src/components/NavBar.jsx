@@ -7,7 +7,7 @@ const NavBar = () => {
       <header className="bg-[#1e1919] text-white px-4 py-3 flex items-center justify-between">
         <div className="flex items-center space-x-6">
           <div className="flex items-center">
-            <img src="src/global/mainlogo.png" alt="Logo" className="h-8 w-8" />
+            <img src="/images/mainlogo.png" alt="Logo" className="h-8 w-8" />
             <span className="ml-2 font-bold text-lg">Namrata Universal</span>
           </div>
           <nav className="hidden md:flex items-center space-x-1">
