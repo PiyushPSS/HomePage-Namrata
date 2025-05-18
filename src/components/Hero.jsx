@@ -49,13 +49,13 @@ const Hero = () => {
           <div className="relative">
             <Lottie
               options={defaultOptions}
-              width={710}
+              width={window.innerWidth < 768 ? 320 : 740}
               isClickToPauseDisabled={true}
             />
           </div>
         </div>
       </main>
-      <div className="bg-black mt-4 py-8">
+      <div className="bg-black py-8">
         <div className="max-w-7xl mx-auto flex justify-between items-center h-full px-4">
           <div className="flex items-center space-x-3 animate-fade-in-up">
             <span className="bg-blue-700 text-white rounded-full p-2">
